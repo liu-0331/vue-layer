@@ -4,9 +4,10 @@
   "description": "vue layer component",
   "main": "./dist/vue-layer.js",
   "scripts": {
-    "build": "webpack --config ./build/webpack.prod.conf.js --colors",
+    "build1": "webpack --config ./build/webpack.prod.conf.js --colors",
     "dev1": "node build/dev-server.js",
-    "dev": "parcel ./demo/index.html  --no-cache"
+    "dev": "parcel ./demo/index.html  --no-cache",
+    "build": "parcel build ./src/layer.js  --no-cache --global myvariable  --no-source-maps"
   },
   "dependencies": {
     "element-ui": "^2.4.6",
