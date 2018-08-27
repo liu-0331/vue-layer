@@ -35,7 +35,6 @@ export default {
   },
   computed: {
     setOpacity() {
-      console.log(this.type);
       if (this.type == 3) {
         return {
           opacity: 0

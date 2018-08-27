@@ -3,7 +3,6 @@ import App from './App'
 import layer from '../src/layer.js';
 import ElementUI from 'element-ui';
 
-
 Vue.prototype.$layer = layer(Vue, {
   msgtime: 1
 });
