@@ -8,9 +8,24 @@
 
 import layervue from './layer.vue';
 import layerMaskVue from './mask.vue';
+// import asd from './css/index.less';
+// import fs from 'fs';
 let Notification = (function (vue, globalOption = {
   msgtime: 1.5, //msg消失时间
 }) {
+
+  // const cssnode = document.createElement('link');
+  // cssnode.rel = 'stylesheet';
+  // cssnode.href = './index.css';
+  // document.getElementsByTagName('head')[0].appendChild(cssnode);
+
+  // const css = fs.readFileSync(__dirname + '/css/index.less', 'utf8');
+  // var style = document.createElement('style');
+  // style.type = 'text/css';
+  // alert(JSON.stringify(asd));
+  // style.appendChild(document.createTextNode(asd));
+  // document.head.appendChild(style);
+
   let NotificationConstructor = vue.extend(layervue);
   let maskLayer = vue.extend(layerMaskVue);
   let self = {};

@@ -19270,7 +19270,7 @@ exports.sha256 = require('./sha256')
 exports.sha384 = require('./sha384')
 exports.sha512 = require('./sha512')
 
-},{"./sha":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha.js","./sha1":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha1.js","./sha224":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha224.js","./sha256":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha256.js","./sha384":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha384.js","./sha512":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha512.js"}],"..\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports) {
+},{"./sha":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha.js","./sha1":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha1.js","./sha224":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha224.js","./sha256":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha256.js","./sha384":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha384.js","./sha512":"..\\node_modules\\create-hash\\node_modules\\sha.js\\sha512.js"}],"..\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -19670,7 +19670,7 @@ CipherBase.prototype._toString = function (value, enc, fin) {
 
 module.exports = CipherBase
 
-},{"safe-buffer":"..\\node_modules\\safe-buffer\\index.js","stream":"..\\node_modules\\stream-browserify\\index.js","string_decoder":"..\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","inherits":"..\\node_modules\\inherits\\inherits_browser.js"}],"..\\node_modules\\create-hash\\browser.js":[function(require,module,exports) {
+},{"safe-buffer":"..\\node_modules\\safe-buffer\\index.js","stream":"..\\node_modules\\stream-browserify\\index.js","string_decoder":"..\\node_modules\\string_decoder\\lib\\string_decoder.js","inherits":"..\\node_modules\\inherits\\inherits_browser.js"}],"..\\node_modules\\create-hash\\browser.js":[function(require,module,exports) {
 'use strict'
 var inherits = require('inherits')
 var MD5 = require('md5.js')
@@ -27293,36 +27293,30 @@ function getr(priv) {
 
 },{"bn.js":"..\\node_modules\\bn.js\\lib\\bn.js","randombytes":"..\\node_modules\\randombytes\\browser.js","buffer":"..\\node_modules\\buffer\\index.js"}],"..\\node_modules\\elliptic\\package.json":[function(require,module,exports) {
 module.exports = {
-  "_args": [
-    [
-      "elliptic@6.4.1",
-      "F:\\host\\person\\vue-layer"
-    ]
-  ],
-  "_development": true,
-  "_from": "elliptic@6.4.1",
+  "_from": "elliptic@^6.0.0",
   "_id": "elliptic@6.4.1",
   "_inBundle": false,
   "_integrity": "sha512-BsXLz5sqX8OHcsh7CqBMztyXARmGQ3LWPtGjJi6DiJHq5C/qvi9P3OqgswKSDftbu8+IoI/QDTAm2fFnQ9SZSQ==",
   "_location": "/elliptic",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "elliptic@6.4.1",
+    "raw": "elliptic@^6.0.0",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "6.4.1",
+    "rawSpec": "^6.0.0",
     "saveSpec": null,
-    "fetchSpec": "6.4.1"
+    "fetchSpec": "^6.0.0"
   },
   "_requiredBy": [
     "/browserify-sign",
     "/create-ecdh"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.4.1.tgz",
-  "_spec": "6.4.1",
-  "_where": "F:\\host\\person\\vue-layer",
+  "_shasum": "c2d0b7776911b86722c632c3c06c60f2f819939a",
+  "_spec": "elliptic@^6.0.0",
+  "_where": "F:\\host\\person\\vue-layer\\node_modules\\browserify-sign",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -27330,6 +27324,7 @@ module.exports = {
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -27339,6 +27334,7 @@ module.exports = {
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
+  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
@@ -39064,7 +39060,7 @@ IncomingForm.prototype._maybeEnd = function() {
   this.emit('end');
 };
 
-},{"crypto":"..\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js","fs":"..\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js","util":"..\\node_modules\\util\\util.js","path":"..\\node_modules\\path-browserify\\index.js","./file":"..\\node_modules\\formidable\\lib\\file.js","./multipart_parser":"..\\node_modules\\formidable\\lib\\multipart_parser.js","./querystring_parser":"..\\node_modules\\formidable\\lib\\querystring_parser.js","./octet_parser":"..\\node_modules\\formidable\\lib\\octet_parser.js","./json_parser":"..\\node_modules\\formidable\\lib\\json_parser.js","string_decoder":"..\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","events":"..\\node_modules\\events\\events.js","stream":"..\\node_modules\\stream-browserify\\index.js","os":"..\\node_modules\\parcel-bundler\\node_modules\\os-browserify\\browser.js","buffer":"..\\node_modules\\buffer\\index.js"}],"..\\node_modules\\formidable\\lib\\index.js":[function(require,module,exports) {
+},{"crypto":"..\\node_modules\\parcel-bundler\\node_modules\\crypto-browserify\\index.js","fs":"..\\node_modules\\parcel-bundler\\src\\builtins\\_empty.js","util":"..\\node_modules\\util\\util.js","path":"..\\node_modules\\path-browserify\\index.js","./file":"..\\node_modules\\formidable\\lib\\file.js","./multipart_parser":"..\\node_modules\\formidable\\lib\\multipart_parser.js","./querystring_parser":"..\\node_modules\\formidable\\lib\\querystring_parser.js","./octet_parser":"..\\node_modules\\formidable\\lib\\octet_parser.js","./json_parser":"..\\node_modules\\formidable\\lib\\json_parser.js","string_decoder":"..\\node_modules\\string_decoder\\lib\\string_decoder.js","events":"..\\node_modules\\events\\events.js","stream":"..\\node_modules\\stream-browserify\\index.js","os":"..\\node_modules\\parcel-bundler\\node_modules\\os-browserify\\browser.js","buffer":"..\\node_modules\\buffer\\index.js"}],"..\\node_modules\\formidable\\lib\\index.js":[function(require,module,exports) {
 var IncomingForm = require('./incoming_form').IncomingForm;
 IncomingForm.IncomingForm = IncomingForm;
 module.exports = IncomingForm;
@@ -48047,7 +48043,7 @@ exports.unzip = (req, res) => {
     return this;
   };
 };
-},{"string_decoder":"..\\node_modules\\parcel-bundler\\node_modules\\string_decoder\\lib\\string_decoder.js","stream":"..\\node_modules\\stream-browserify\\index.js","zlib":"..\\node_modules\\parcel-bundler\\node_modules\\browserify-zlib\\lib\\index.js"}],"..\\node_modules\\extend\\index.js":[function(require,module,exports) {
+},{"string_decoder":"..\\node_modules\\string_decoder\\lib\\string_decoder.js","stream":"..\\node_modules\\stream-browserify\\index.js","zlib":"..\\node_modules\\parcel-bundler\\node_modules\\browserify-zlib\\lib\\index.js"}],"..\\node_modules\\extend\\index.js":[function(require,module,exports) {
 'use strict';
 
 var hasOwn = Object.prototype.hasOwnProperty;
@@ -65076,33 +65072,33 @@ render._withStripped = true
       }
     })();
 },{"babel-runtime/regenerator":"..\\node_modules\\babel-runtime\\regenerator\\index.js","babel-runtime/helpers/asyncToGenerator":"..\\node_modules\\babel-runtime\\helpers\\asyncToGenerator.js","./helper/helper.js":"..\\src\\helper\\helper.js","vue-hot-reload-api":"..\\node_modules\\vue-hot-reload-api\\dist\\index.js","vue":"..\\node_modules\\vue\\dist\\vue.runtime.esm.js"}],"..\\src\\layer.vue":[function(require,module,exports) {
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _alert = require('./alert.vue');
+var _alert = require("./alert.vue");
 
 var _alert2 = _interopRequireDefault(_alert);
 
-var _loading = require('./loading.vue');
+var _loading = require("./loading.vue");
 
 var _loading2 = _interopRequireDefault(_loading);
 
-var _msg = require('./msg.vue');
+var _msg = require("./msg.vue");
 
 var _msg2 = _interopRequireDefault(_msg);
 
-var _tips = require('./tips.vue');
+var _tips = require("./tips.vue");
 
 var _tips2 = _interopRequireDefault(_tips);
 
-var _page = require('./page.vue');
+var _page = require("./page.vue");
 
 var _page2 = _interopRequireDefault(_page);
 
-var _iframe = require('./iframe.vue');
+var _iframe = require("./iframe.vue");
 
 var _iframe2 = _interopRequireDefault(_iframe);
 
@@ -65126,31 +65122,31 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = {
   data: function data() {
     return {
-      id: '',
+      id: "",
       type: 0, //0（alert默认）1（页面层）2（iframe层）3（loading）4（tips层）,5(msg)
-      title: '信息',
-      content: '',
-      area: 'auto',
-      offset: 'auto',
+      title: "信息",
+      content: "",
+      area: "auto",
+      offset: "auto",
       icon: -1,
-      btn: '确定',
+      btn: "确定",
       time: 0,
       shade: true,
-      yes: '',
-      cancel: ''
+      yes: "",
+      cancel: ""
     };
   },
 
   computed: {
     getActiveName: function getActiveName() {
-      var comps = ['pzalert', 'pzpage', 'pziframe', 'pzloading', 'pztips', 'pzmsg'];
+      var comps = ["pzalert", "pzpage", "pziframe", "pzloading", "pztips", "pzmsg"];
       return comps[this.$data.type];
     },
 
-    "isMsg": function isMsg() {
+    isMsg: function isMsg() {
       return this.type == 5 ? true : false;
     },
-    "isTips": function isTips() {
+    isTips: function isTips() {
       return this.type == 4 ? true : false;
     }
   },
@@ -65330,7 +65326,12 @@ render._withStripped = true
       
       }
     })();
-},{"./helper/helper.js":"..\\src\\helper\\helper.js","_css_loader":"..\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js","vue-hot-reload-api":"..\\node_modules\\vue-hot-reload-api\\dist\\index.js","vue":"..\\node_modules\\vue\\dist\\vue.runtime.esm.js"}],"..\\src\\layer.js":[function(require,module,exports) {
+},{"./helper/helper.js":"..\\src\\helper\\helper.js","_css_loader":"..\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js","vue-hot-reload-api":"..\\node_modules\\vue-hot-reload-api\\dist\\index.js","vue":"..\\node_modules\\vue\\dist\\vue.runtime.esm.js"}],"..\\src\\css\\index.less":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"..\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"..\\src\\layer.js":[function(require,module,exports) {
 'use strict';
 
 var _typeof2 = require('babel-runtime/helpers/typeof');
@@ -65345,15 +65346,9 @@ var _mask = require('./mask.vue');
 
 var _mask2 = _interopRequireDefault(_mask);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+require('./css/index.less');
 
-/**
- * @Author: 左盐
- * @Date:   2018-03-05 16:12:17
- * @Email:  huabinglan@163.com
- * @Last modified by:   左盐
- * @Last modified time: 2018-03-31 10:39:54
- */
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Notification = function Notification(vue) {
   var globalOption = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {
@@ -65664,10 +65659,16 @@ var Notification = function Notification(vue) {
   }
 
   return self;
-};
+}; /**
+    * @Author: 左盐
+    * @Date:   2018-03-05 16:12:17
+    * @Email:  huabinglan@163.com
+    * @Last modified by:   左盐
+    * @Last modified time: 2018-03-31 10:39:54
+    */
 
 module.exports = Notification;
-},{"babel-runtime/helpers/typeof":"..\\node_modules\\babel-runtime\\helpers\\typeof.js","./layer.vue":"..\\src\\layer.vue","./mask.vue":"..\\src\\mask.vue"}],"..\\node_modules\\element-ui\\lib\\mixins\\emitter.js":[function(require,module,exports) {
+},{"babel-runtime/helpers/typeof":"..\\node_modules\\babel-runtime\\helpers\\typeof.js","./layer.vue":"..\\src\\layer.vue","./mask.vue":"..\\src\\mask.vue","./css/index.less":"..\\src\\css\\index.less"}],"..\\node_modules\\element-ui\\lib\\mixins\\emitter.js":[function(require,module,exports) {
 "use strict";
 
 exports.__esModule = true;
@@ -111394,7 +111395,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58836' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49413' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
